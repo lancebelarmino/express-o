@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*Colors
+Black #191919;
+Gold #926b44;
+*/
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #191919;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3em;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  margin-left: 3%;
+  align-items: center;
+}
+
+.header-logo img {
+  width: 30px;
+}
+
+#logo-text {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  margin-left: 20px;
+  color: #926b44;
+}
+
+.header-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25rem;
+  margin-right: 3%;
+}
+
+.header-link {
+  text-decoration: none;
+  font-size: 0.875em;
+  color: #926b44;
+}
+
+.banner {
+  display: flex;
+  height: 90vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-text {
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.banner-image img {
+  width: 650px;
+}
+
+.banner-content {
+  color: white;
+}
+
+.gold {
+  color: #926b44;
+}
+
+.banner-paragraph {
+  margin: 40px 0px;
+  line-height: 2.5em;
+}
